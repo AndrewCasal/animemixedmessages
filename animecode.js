@@ -3,4 +3,5 @@ let item = ['Dragon Balls', 'Devil Fruit', 'Kunai', 'Substitute Shinigami Badge'
 let power = ['Super Saiyan', 'Haki', 'Biguu Mode', 'Final Hollowification', 'Attack Titan Form', 'One for All', 'Spirit Gun', 'Destroy with One Punch', 'Hamon', 'Sunshine'];
 const randNumber = Math.floor(Math.random() * 10);
 const randChar = char[randNumber];
-console.log(randChar);
+const randItem = item[randNumber];
+console.log(randItem);
