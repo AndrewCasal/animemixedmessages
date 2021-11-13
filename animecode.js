@@ -4,4 +4,5 @@ let power = ['Super Saiyan', 'Haki', 'Biguu Mode', 'Final Hollowification', 'Att
 const randNumber = Math.floor(Math.random() * 10);
 const randChar = char[randNumber];
 const randItem = item[randNumber];
-console.log(randItem);
+const randPower = power[randNumber];
+console.log(randPower);
